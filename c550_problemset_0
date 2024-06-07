@@ -23,3 +23,21 @@ In a file called playback.py, implement a program in Python that prompts the use
 say = input("What did you say? ")
 #return input with ellipses in between each word
 print(ellipsis.join(say))
+
+<h2>Making Faces</h2>
+#function main
+def main():
+say = input()
+#call convert function
+result = convert(say)
+#print result
+print(result)
+
+#create convert function
+def convert(say):
+    return say.replace(":)","🙂").replace("):","🙁")
+
+
+  
+  
+  
