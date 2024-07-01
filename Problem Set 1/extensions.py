@@ -3,19 +3,21 @@
 #replace file extension with MIME type
 #image application text octet
 
-file = input("What is the file name? ").lower.strip()
-#true_file = file.lower() condensed to one line
-if 'gif' in true_file:
+file = input("What is the file name? ").lower().strip()
+
+if 'gif' in file:
     print("image.gif")
-elif 'jpg' or 'jpeg' in true_file:
-    print(image/jpeg)
-elif 'png' in true_file:
+elif 'jpg'in file:
+    print("image/jpeg")
+elif 'jpeg' in file:
+    print("image/jpeg")
+elif 'png' in file:
     print("image/png")
-elif 'pdf' in true_file:
+elif 'pdf' in file:
     print("application/pdf")
-elif 'txt' in true_file:
+elif 'txt' in file:
     print("txt/plain")
-elif 'zip' in true_file:
+elif 'zip' in file:
     print("application/zip")
-else:
-    print("application/octet-stream")
+else: 
+  print("application/octet-stream")
