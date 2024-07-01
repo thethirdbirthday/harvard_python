@@ -17,4 +17,5 @@ elif 'txt' in true_file:
     print("txt/plain")
 elif 'zip' in true_file:
     print("application/zip")
-else print("application/octet-stream")
+else:
+    print("application/octet-stream")
