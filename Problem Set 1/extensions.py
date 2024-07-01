@@ -3,8 +3,8 @@
 #replace file extension with MIME type
 #image application text octet
 
-file = input("What is the file name? ")
-true_file = file.lower()
+file = input("What is the file name? ").lower.strip()
+#true_file = file.lower() condensed to one line
 if 'gif' in true_file:
     print("image.gif")
 elif 'jpg' or 'jpeg' in true_file:
