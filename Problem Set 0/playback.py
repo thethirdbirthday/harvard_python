@@ -4,4 +4,4 @@
 #prompt user for input
 say = input("What did you say? ")
 #return input with ellipses in between each word
-print(ellipsis.join(say))
+print(say.ellipsis.join())
