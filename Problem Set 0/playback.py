@@ -2,6 +2,14 @@
 #In a file called playback.py, implement a program in Python that prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
 
 #prompt user for input
-say = input("What did you say? ")
+#say = input("What did you say? ")
 #return input with ellipses in between each word
-print(say.ellipsis.join())
+#print(say.ellipsis.join())
+
+#take 2 
+#prompt user for input
+say = input("What did you say? ")
+#ellipses replace each space
+new_say = say.replace(" ", "...")
+#return input with ellipses in between each word
+print(new_say)
